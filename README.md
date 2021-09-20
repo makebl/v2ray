@@ -2,12 +2,19 @@
 最好用的 V2Ray 一键安装脚本 &amp; 管理脚本
 功能特点
 支持 V2Ray 多数传输协议
+
 支持 WebSocket + TLS / HTTP/2
+
 支持 动态端口 (WebSocket + TLS，Socks5， HTTP/2 除外)
+
 支持 屏蔽广告
+
 支持 配置 Shadowsocks
+
 支持 下载客户端配置文件 (不用 Xshell 也可以下载)
+
 客户端配置文件同时支持 SOCKS 和 HTTP
+
 支持 生成 V2Ray 配置二维码链接 (仅适用部分客户端)
 支持 生成 V2Ray 配置信息链接
 支持 生成 Shadowsocks 配置二维码链接
@@ -51,7 +58,9 @@ Telegram 专用代理
 
 快速管理
 v2ray info 查看 V2Ray 配置信息
+
 v2ray config 修改 V2Ray 配置
+
 v2ray link 生成 V2Ray 配置文件链接
 v2ray infolink 生成 V2Ray 配置信息链接
 v2ray qr 生成 V2Ray 配置二维码链接
