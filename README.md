@@ -59,7 +59,9 @@
 
 备注：不推荐使用 Debian 8 系统，因为 Caddy 申请证书可能会出现一些莫名其妙的问题
 
-bash <(curl -s -L https://git.io/v2ray.sh)
+
+ bash <(curl -s -L https://git.io/v2ray.sh)
+
 
 如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl
 
