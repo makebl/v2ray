@@ -617,8 +617,8 @@ shadowsocks_password_config() {
 
 	while :; do
 		echo -e "请输入 "$yellow"Shadowsocks"$none" 密码"
-		read -p "$(echo -e "(默认密码: ${cyan}233blog.com$none)"): " sspass
-		[ -z "$sspass" ] && sspass="233blog.com"
+		read -p "$(echo -e "(默认密码: ${cyan}lang$none)"): " sspass
+		[ -z "$sspass" ] && sspass="lang"
 		case $sspass in
 		*[/$]*)
 			echo
